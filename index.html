@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#" id="goContact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -75,6 +75,12 @@
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+    <script>
+    $("#goContact").on('click', function() {
+    window.location = "Contact.html";
     });
     </script>
 
